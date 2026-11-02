@@ -21,7 +21,7 @@ Damit nichts verloren geht, speichert Textsachen die aktuelle Aufgabe automatisc
 
 Öffnest du Textsachen im Lernsachen-Heft, liegt der Entwurf getrennt davon und wird gelöscht, sobald die Aufgabe im Heft ist oder du abbrichst. Die Aufgabe gibt Textsachen dabei nur an das Heft in deinem Browser weiter – sie verlässt dein Gerät nicht.
 
-Außerdem merkt sich Textsachen im lokalen Speicher deines Browsers (localStorage) die **Einstellungen des KI-Dialogs** (Thema, Zielgruppe usw. – den API-Schlüssel nur, wenn du das einschaltest, siehe Punkt 7). Du löschst sie, indem du in deinem Browser die Website-Daten löschst.
+Außerdem merkt sich Textsachen im lokalen Speicher deines Browsers (localStorage) die **Einstellungen des KI-Dialogs** (Thema, Zielgruppe usw. – den API-Schlüssel nur, wenn du das einschaltest, siehe Punkt 7), ob die **automatische Bildersuche** an ist, und – für die Bildersuche, bis zu 30 Tage – die öffentliche **Stichwortliste von ARASAAC** (keine Daten von dir). Du löschst das, indem du in deinem Browser die Website-Daten löschst.
 
 Dateien wie JSON, HTML, SCORM-Pakete oder PDF entstehen ebenfalls nur lokal und werden in deinem Download-Ordner gespeichert. Was du damit machst (z. B. in mebis hochladen), entscheidest du.
 
@@ -40,7 +40,7 @@ Nur wenn du im Bild-Dialog **selbst** eine Suche startest oder ein Suchergebnis 
 
 Dabei werden **deine IP-Adresse**, der **Suchbegriff** und übliche technische Angaben deines Browsers (z. B. Browsertyp, Sprache) an diesen Dienst übermittelt – so wie beim Besuch der jeweiligen Webseite. Textsachen schickt keine weiteren Daten mit, insbesondere nicht deine Aufgabe. Gib deshalb keine personenbezogenen Daten als Suchbegriff ein. Die Wikimedia Foundation sitzt in den USA; Daten können dorthin übertragen werden.
 
-Klickst du im Schritt „Bilder“ auf „Bilder automatisch suchen“, sucht dein Browser bei ARASAAC nach den Wörtern bzw. Lernwörtern – dabei gilt dasselbe wie bei der Bildsuche.
+**Automatische Bildersuche:** Gibst du Wörter oder einen Text ein, sucht dein Browser kurz darauf von selbst bei ARASAAC nach Piktogrammen zu diesen Wörtern (bei Texten zu den abbildbaren Wörtern, in ihrer Grundform). Dabei gilt dasselbe wie bei der Bildsuche: ARASAAC erfährt die Suchwörter und deine IP-Adresse. Einmal lädt dein Browser dafür auch die öffentliche Stichwortliste von ARASAAC. Möchtest du das nicht, schalte im Schritt „Bilder“ „Bilder automatisch suchen“ aus – schreibe dann keine Wörter, bevor du die Suche ausgeschaltet hast.
 
 Fügst du unter „Oder Bildadresse (URL) einfügen“ eine Adresse ein oder ziehst ein Bild aus einer anderen Webseite hinein, lädt dein Browser das Bild von dieser Webseite – auch dabei erfährt deren Betreiber deine IP-Adresse.
 

@@ -9,8 +9,8 @@
 - Mit einer Wortliste: **Bilddiktat**, **Hördiktat**, **Wortdiktat** und **Blitzlesen**
 - Mit einem Text: **Lesen** (Vorlesen mit mitleuchtenden Wörtern, danach ein Bilder-Quiz), **Lückentext**, **Abtippen** und **Blitzlesen**
 - Höchstens ein **Lernwort** pro Satz – automatisch vorgeschlagen oder selbst angetippt; die Lernwörter sind Lücken, Quizfragen und Blitzwörter
-- Erster und zweiter Versuch wie im TippTrainer: Fehleranzeige, „Korrigieren“, Auswertung Perfekt / Geübt / Nicht geschafft
-- Bilder automatisch von ARASAAC oder selbst gewählt (ARASAAC, Wikimedia Commons, eigene Bilder)
+- Wie im TippTrainer: Prüfen mit der Eingabetaste, Fehleranzeige im Eingabefeld, Korrigieren mit der Rücktaste, Shift-Animation bei Groß-/Kleinschreibung, Artikel steht schon da; Auswertung Perfekt / Geübt / Nicht geschafft
+- Bilder automatisch gleich nach der Eingabe – ARASAAC-Piktogramme über die Grundform der Wörter (Häuser → Haus, läuft → laufen); bei Texten viele **Bildwörter** zum Leseverständnis, mit Archiv zum Ab- und Zuwählen; oder selbst gewählt (ARASAAC, Wikimedia Commons, eigene Bilder)
 - Wörter und Texte auf Wunsch von einer KI – über einen KI-Chat deiner Wahl oder eine API-Schnittstelle
 - Export als HTML-Datei (auch zum Einbetten per iframe), SCORM-1.2-Paket mit Bewertung und Wort-Protokoll oder PDF-Arbeitsblatt (Grundlinie oder 4er-Lineatur)
 - Im [Lernsachen-Heft](https://majort0m0.github.io/Lernsachen-Heft/) als Vorlage „Lesen & Schreiben“ (Interaktive Übungen)
@@ -20,7 +20,39 @@
 
 Textsachen – Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) Lernsachen.blog ([https://lernsachen.blog](https://lernsachen.blog))
 
-Enthaltene Bausteine: [Preact](https://preactjs.com), [Immer](https://immerjs.github.io/immer/) (MIT-Lizenz); [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) für die KI-Schnittstelle ([Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)); Schriften Nunito, Atkinson Hyperlegible, Andika, Merriweather, Caveat (SIL Open Font License 1.1). Bilder aus der Suche behalten ihre eigenen Lizenzen (ARASAAC: Sergio Palao, Regierung von Aragón, CC BY-NC-SA 4.0).
+Enthaltene Bausteine: [Preact](https://preactjs.com), [Immer](https://immerjs.github.io/immer/) (MIT-Lizenz); [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) für die KI-Schnittstelle ([Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)); Schriften Lexend, Nunito, Atkinson Hyperlegible, Andika, Merriweather, Caveat (SIL Open Font License 1.1). Bilder aus der Suche behalten ihre eigenen Lizenzen (ARASAAC: Sergio Palao, Regierung von Aragón, CC BY-NC-SA 4.0). Silbentrennung (Silben rot und blau): [Hypher](https://github.com/bramstein/hypher) (© 2011 Bram Stein, BSD-3-Clause) mit den deutschen TeX-Trennmustern dehyphn-x-2011-06-01 (© 2007–2011 Werner Lemberg, [LaTeX Project Public License 1.3c](https://www.latex-project.org/lppl/)), von Bram Stein ins Hypher-Format umgewandelt (npm-Paket hyphenation.de 0.2.1); die Silbenregeln für Sprechsilben kommen danach dazu. Die Autoren der Trennmuster sind für diese App nicht verantwortlich. Unverändertes Original: [tex-hyphen](https://github.com/hyphenation/tex-hyphen) (hyph-de-1996.tex, Stand 2011-06-01) bzw. CTAN (hyph-utf8).
+
+<details><summary>Lizenztext von Hypher (BSD-3-Clause)</summary>
+
+```
+Copyright (c) 2011, Bram Stein
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+</details>
 
 ---
 
@@ -36,7 +68,7 @@ Mit Textsachen erstellst du Übungen zum Lesen, Schreiben und Tippen: Diktate zu
 
 1. **Übungsart wählen** – beim Start oder über das Ordner-Symbol → „Neue Aufgabe“: eine der vier Übungen mit einer Wortliste oder eine der vier Übungen mit einem Text.
 2. **Inhalt schreiben** – im Schritt „Inhalt“ den Titel und die Wörter bzw. den Text eingeben, ein Beispiel einsetzen oder mit „Mit KI erstellen …“ vorschlagen lassen.
-3. **Lernwörter und Bilder** – bei Texten im Schritt „Lernwörter“ höchstens ein Wort pro Satz antippen (oder „Automatisch“), dann im Schritt „Bilder“ mit „Bilder automatisch suchen“ Piktogramme einsetzen.
+3. **Bilder und Lernwörter** – die Bilder sucht Textsachen gleich nach der Eingabe von selbst; im Schritt „Bilder“ tauschst du sie aus oder legst Wörter ins Archiv. Bei Texten wählst du im Schritt „Lernwörter“ höchstens ein Wort pro Satz (oder „Automatisch“).
 4. **Ablauf einstellen** – im Schritt „Ablauf“ Schrift und Größe, Hilfen (Vorlesen, Zeigen), Vorlese-Tempo und Bestehensgrenze. Die Checkliste zeigt, ob noch etwas fehlt.
 5. **Testen und exportieren** – rechts siehst du die Vorschau, oben „Testen“ zeigt die Aufgabe groß. Dann „Exportieren“: als HTML-Datei (auch zum Einbetten in mebis), als SCORM-Paket für mebis mit Bewertung oder als PDF-Arbeitsblatt.
 
@@ -48,23 +80,28 @@ Mit Textsachen erstellst du Übungen zum Lesen, Schreiben und Tippen: Diktate zu
 
 | Übung | So geht sie |
 | --- | --- |
-| **Bilddiktat** | Ein Bild erscheint, die Lernenden schreiben das passende Wort. Nur Wörter mit Bild kommen vor. |
-| **Hördiktat** | Das Wort wird vorgelesen (und lässt sich wiederholen), die Lernenden schreiben es auf. |
-| **Wortdiktat** | Das Wort steht da und wird abgeschrieben – mit Bild, wenn eines gewählt ist. |
-| **Blitzlesen** | Nach drei Sternchen blitzt das Wort kurz auf. Dann tippen die Lernenden unter drei Bildern das passende an. „Nochmal blitzen“ zeigt es noch einmal, „Wörter zeigen“ schreibt die Wörter unter die Bilder. Braucht mindestens 3 Wörter mit Bild. |
+| **Bilddiktat** | Links das Bild, rechts das Eingabefeld – der Artikel steht schon im grauen Kästchen davor. Nur Wörter mit Bild kommen vor. |
+| **Hördiktat** | Statt des Bildes ein Ohr: Das Wort wird vorgelesen (Ohr oder Lautsprecher = nochmal hören). Das Bild erscheint erst nach der Antwort. |
+| **Wortdiktat** | Das Wort steht groß über dem Eingabefeld und wird vorgelesen, dann abgeschrieben – mit Bild, wenn eines gewählt ist. |
+| **Blitzlesen** | Nach drei Sternchen blitzt das Wort kurz auf. Dann tippen die Lernenden unter drei Bildern das passende an. „Nochmal blitzen“ zeigt es noch einmal, „Wörter zeigen“ schreibt die Wörter unter die Bilder. Braucht mindestens 3 Wörter mit Bild. Mit automatischer Anzeigedauer (Standard) kommen vorher 5 einfache **Aufwärmwörter** (zufällig aus 20, z. B. Hund, Apfel, Haus): Aus der Reaktionszeit ergibt sich die Anzeigedauer; Punkte gibt es erst danach für die eigenen Wörter. |
 
 ### Mit einem Text
 
 | Übung | So geht sie |
 | --- | --- |
-| **Lesen** | Der Text wird Satz für Satz vorgelesen, das gelesene Wort leuchtet mit. Antippen eines Worts liest seinen Satz vor, „Bilder“ zeigt die Wortbilder über dem Text. Danach (einschaltbar) ein **Bilder-Quiz**: Zu jedem Bild eines Lernworts wird das Wort im Text angetippt. |
-| **Lückentext** | Die Lernwörter fehlen im Text und werden in die Lücken geschrieben. |
-| **Abtippen** | Der Text wird Wort für Wort abgetippt – Leertaste, Eingabetaste oder ein Satzzeichen bestätigen ein Wort. Mit „Vorlage anzeigen“ steht der Text darüber, sonst helfen nur Vorlesen und Zeigen (wie im TippTrainer). Am Ende stehen auch die Wörter pro Minute. |
+| **Lesen** | Der Text wird Satz für Satz vorgelesen, das gelesene Wort leuchtet mit. Antippen eines Worts liest seinen Satz vor, „Bilder“ zeigt die Wortbilder über dem Text. Danach (einschaltbar) ein **Bilder-Quiz**: Zu jedem Bild eines Lernworts wird das Wort im Text angetippt. Auf Wunsch stehen die Wörter in **Silben rot und blau** (Silbenmethode); die Lernenden schalten die Farben mit „Silben“ aus und ein. |
+| **Lückentext** | Die Lernwörter fehlen im Text (blaue Kästchen). Antippen öffnet eine Lücke – in beliebiger Reihenfolge – mit Eingabefeld und den Hilfen direkt daneben: Lautsprecher (liest das Wort), Auge (zeigt es kurz im Feld), ✕ (schließen, Esc) und ✓ (prüfen, Enter). Ein Fehler erscheint rot an der Stelle der Lücke, der Stift (oder Antippen) startet den zweiten Versuch. Unten: „Vorlesen“ liest den ganzen Text (Lücken heißen „Wortlücke“), „Bilder“ zeigt die Bildwörter – auch über den Lücken. |
+| **Abtippen** | Der Text wird Wort für Wort abgetippt – Leertaste, Eingabetaste oder ein Satzzeichen bestätigen ein Wort. Mit „Vorlage anzeigen“ steht der Text darüber, sonst helfen nur Vorlesen und Zeigen (wie im TippTrainer). Ein Fehler wird mit der Rücktaste (oder Antippen) korrigiert. Am Ende stehen auch die Wörter pro Minute. |
 | **Blitzlesen** | Wie bei der Wortliste – mit den Lernwörtern des Textes, die ein Bild haben. |
 
-### Erster und zweiter Versuch
+### Erster und zweiter Versuch (wie im TippTrainer)
 
-Beim Schreiben zeigt ein Fehler, was nicht stimmt: falsche Buchstaben rot durchgestrichen, fehlende grün. Mit „Korrigieren“ gibt es genau einen zweiten Versuch. Am Ende zählt jedes Wort als **Perfekt** (gleich richtig), **Geübt** (im zweiten Versuch richtig) oder **Nicht geschafft**. Ein Hinweis erscheint, wenn nur die Groß- und Kleinschreibung falsch ist oder die Feststelltaste an ist.
+- Geprüft wird mit der **Eingabetaste** – auf der Tastatur oder mit dem Knopf, der wie die Eingabetaste aussieht.
+- Bei einem Fehler steht im Eingabefeld, was nicht stimmt: falsche Buchstaben rot durchgestrichen, die richtigen grün daneben. Bei Groß- und Kleinschreibung zeigt eine kleine Animation, wie man mit der Umschalttaste den Großbuchstaben tippt; stehen fast nur Großbuchstaben da, erinnert die **Feststelltaste** daran, sie auszuschalten.
+- Die **Rücktaste** (oder der rote Knopf, oder die Eingabetaste) startet den zweiten Versuch mit leerem Feld; wer auf die Fehleranzeige tippt, verbessert das Geschriebene. Im zweiten Versuch steht das richtige Wort darüber.
+- Das **Auge** zeigt das Wort kurz in derselben Größe genau über dem Eingabefeld, der Lautsprecher liest es vor.
+
+Am Ende zählt jedes Wort als **Perfekt** (gleich richtig), **Geübt** (im zweiten Versuch richtig) oder **Nicht geschafft**. Lückentext und Abtippen zeigen Fehler genauso an.
 
 ## Inhalt & KI
 
@@ -72,7 +109,7 @@ Beim Schreiben zeigt ein Fehler, was nicht stimmt: falsche Buchstaben rot durchg
 
 **Text:** Schreibe oder füge den Text ein. Eine leere Zeile beginnt einen neuen Absatz. Sätze enden an Punkt, Ausrufe- und Fragezeichen – danach richten sich das Vorlesen, die Lernwörter und das Arbeitsblatt.
 
-**Mit KI erstellen:** „Mit KI erstellen …“ öffnet denselben Dialog wie in den anderen Lernsachen-Apps: Thema, Klassenstufe bzw. Zielgruppe (auch Deutsch als Zweitsprache und Leichte Sprache), Länge, Textsorte, Rechtschreib-Schwerpunkt und eigene Wünsche. Bei Texten markiert die KI gleich ein Lernwort pro Satz.
+**Mit KI erstellen:** „Mit KI erstellen …“ öffnet denselben Dialog wie in den anderen Lernsachen-Apps: Thema, Klassenstufe bzw. Zielgruppe (auch Deutsch als Zweitsprache und Leichte Sprache), Länge, Textsorte, Rechtschreib-Schwerpunkt und eigene Wünsche. Bei Texten markiert die KI gleich ein Lernwort pro Satz und nennt die Bildwörter mit ihrer Grundform (z. B. „Würmer = Wurm“) – damit findet die Bildersuche bessere Piktogramme.
 
 - **Über einen KI-Chat:** Den Prompt kopieren, in einen KI-Chat deiner Wahl einfügen, die Antwort kopieren und bei „Antwort einfügen“ einsetzen. Textsachen selbst schickt dabei nichts ins Internet.
 - **Über eine API-Schnittstelle:** Mit eigenem Schlüssel (Anthropic, OpenAI, Mistral, Gemini, OpenRouter) oder einer lokalen KI (Ollama) erzeugt Textsachen die Aufgabe direkt. Den Schlüssel speichert der Browser nur, wenn du das einschaltest.
@@ -87,24 +124,33 @@ Bei Texten bestimmen die **Lernwörter**, was geübt wird: Sie sind die Lücken 
 - „Automatisch“ schlägt in jedem Satz eines vor – bevorzugt Nomen und Wörter, die schon ein Bild haben. „Keine“ entfernt alle.
 - Änderst du den Text, bleiben die Lernwörter erhalten, solange die Wörter noch da sind.
 
-> **Tipp:** Für Bilder-Quiz und Blitzlesen braucht ein Lernwort ein Bild – das wählst du im nächsten Schritt.
+> **Tipp:** Lernwörter und Bildwörter sind zweierlei: **Bildwörter** sind alle Wörter mit Bild (viele pro Satz, zum Verstehen beim Lesen), **Lernwörter** werden geübt. Für Bilder-Quiz und Blitzlesen braucht ein Lernwort ein Bild.
 
-## Bilder
+## Bilder & Bildwörter
 
-Im Schritt „Bilder“ steht jedes Wort der Liste bzw. jedes Lernwort des Textes mit seinem Bild.
+### Automatische Bildersuche
 
-- „Bilder automatisch suchen“ setzt für alle Wörter ohne Bild das erste passende Piktogramm von ARASAAC ein (bei Texten auch mit der Grundform, z. B. „Häuser“ → „Haus“).
-- Über die Lupe bzw. „Anderes Bild wählen“ suchst du selbst bei ARASAAC oder Wikimedia Commons, lädst ein eigenes Bild hoch oder fügst eine Bildadresse ein. Bildnachweise erscheinen automatisch in der Aufgabe und auf dem Arbeitsblatt.
-- Bilder von Textwörtern gelten für jedes Vorkommen des Worts im Text.
+Sobald du Wörter oder einen Text eingibst, sucht Textsachen von selbst passende Piktogramme bei ARASAAC – wie im TippTrainer über die **Grundform**: Einzahl, Infinitiv, nicht gesteigert („Häuser“ → „Haus“, „läuft“ → „laufen“, „größten“ → „groß“, „Apfelbaum“ → „Baum“). Bei Texten zählen nur sichere Treffer; Wörter, die sich nicht abbilden lassen (der, und, ist, sehr …, abstrakte Wörter wie „Freiheit“), werden gar nicht gesucht. Jedes Wort wird nur einmal gesucht – was du entfernst, kommt nicht von selbst zurück. Unter „Bilder automatisch suchen“ schaltest du die Suche aus.
 
-ARASAAC-Piktogramme: Sergio Palao, Regierung von Aragón, Lizenz CC BY-NC-SA 4.0 – frei für den nicht-kommerziellen Unterricht.
+### Wortlisten
+
+Jedes Wort steht mit seinem Bild da; „gesucht:“ zeigt die Grundform, unter der es gefunden wurde. Mit der Lupe wählst du selbst (ARASAAC, Wikimedia Commons, eigenes Bild oder Bildadresse), der Papierkorb entfernt das Bild. „Fehlende suchen“ versucht es für Wörter ohne Bild noch einmal.
+
+### Texte: Bildwörter und Archiv
+
+- **Bildwörter** sind alle Wörter des Textes mit Bild – beim Lesen stehen die Bilder über den Wörtern (Knopf „Bilder“). Die Lernwörter unter ihnen sind mit einem Stern markiert; sie kommen im Bilder-Quiz und beim Blitzlesen dran.
+- Das Archiv-Symbol legt ein Bildwort ins **Archiv**: Es bekommt kein Bild mehr, das Bild bleibt aber gespeichert und kommt mit ⊕ zurück.
+- Im Archiv stehen auch die Wörter ohne Bild. Mit der Lupe bekommt ein Wort ein Bild und wird zum Bildwort; „Nochmal suchen“ sucht für alle Wörter ohne Bild noch einmal.
+- Ein Bild gilt für jedes Vorkommen des Worts im Text.
+
+ARASAAC-Piktogramme: Sergio Palao, Regierung von Aragón, Lizenz CC BY-NC-SA 4.0 – frei für den nicht-kommerziellen Unterricht. Die Bildnachweise erscheinen automatisch in der Aufgabe und auf dem Arbeitsblatt.
 
 ## Ablauf & Hilfen
 
-- **Schrift und Größe** der Übung – Andika mit einstöckigem a für Leseanfänger, Atkinson Hyperlegible besonders gut unterscheidbar.
-- **Hilfen:** „Vorlesen“ (Lautsprecher) und „Zeigen“ (Auge, das Wort erscheint kurz). Die Abschlusskarte zählt mit, wie oft Hilfen benutzt wurden.
+- **Schrift und Größe** der Übung – Lexend (Standard) ist besonders leicht lesbar, Andika hat ein einstöckiges a für Leseanfänger, Atkinson Hyperlegible besonders gut unterscheidbare Buchstaben. Beim Lesen, im Lückentext und beim Abtippen stellen die Lernenden die Schrift mit „A−“ und „A+“ unten rechts selbst kleiner oder größer (bis 200 %).
+- **Hilfen:** „Vorlesen“ (Lautsprecher) und „Zeigen“ (Auge, das Wort erscheint kurz). Die Abschlusskarte zählt mit, wie oft Hilfen benutzt wurden. „Aufgabenstellung vorlesen“ setzt einen Lautsprecher an die Aufgabe (z. B. „Welches Wort passt zum Bild?“).
 - **Reihenfolge mischen** (Wortlisten), **Vorlese-Tempo** mit „Probehören“ und die **Bestehensgrenze** für SCORM.
-- Im Schritt „Übung“ stehen die Einstellungen der Übungsart, z. B. die Anzeigedauer beim Blitzlesen (auf Wunsch automatisch angepasst: nach Fehlern länger, nach schnellen richtigen Antworten kürzer), das Bilder-Quiz beim Lesen oder „Vorlage anzeigen“ beim Abtippen.
+- Im Schritt „Übung“ stehen die Einstellungen der Übungsart, z. B. die Anzeigedauer beim Blitzlesen (Standard: automatisch – erst mit 5 Aufwärmwörtern eingestellt, dann nach Fehlern und Hilfen länger, nach schnellen richtigen Antworten kürzer; sonst fest), das Bilder-Quiz beim Lesen oder „Vorlage anzeigen“ beim Abtippen.
 
 Vorgelesen wird mit der deutschen Stimme des Geräts – auf iPads und Computern klingt sie unterschiedlich.
 
@@ -158,7 +204,8 @@ Ein A4-Arbeitsblatt zum Ausdrucken, aufgebaut wie im TippTrainer. Du wählst „
 
 ## Tipps & häufige Fragen
 
-- **Das Bilddiktat oder Blitzlesen zeigt nicht alle Wörter.** Diese Übungen brauchen Bilder: Wörter ohne Bild werden übersprungen. Ergänze die Bilder im Schritt „Bilder“.
+- **Das Bilddiktat oder Blitzlesen zeigt nicht alle Wörter.** Diese Übungen brauchen Bilder: Wörter ohne Bild werden übersprungen. Ergänze die Bilder im Schritt „Bilder“ mit der Lupe oder „Fehlende suchen“.
+- **Ein Bild passt nicht zum Wort.** Tausche es mit der Lupe aus (dort kannst du auch ein anderes Suchwort eingeben). Bei Texten kannst du das Wort auch ins Archiv legen – dann bekommt es kein Bild.
 - **Im Lückentext oder Quiz kommen zu wenige Wörter dran.** Es gibt höchstens ein Lernwort pro Satz. Wähle im Schritt „Lernwörter“ mehr Wörter aus – oder teile lange Sätze im Text.
 - **Die Vorlese-Stimme klingt seltsam oder fehlt.** Textsachen nutzt die Stimme des Geräts. Fehlt eine deutsche Stimme, kann sie in den Systemeinstellungen (Bedienungshilfen → Gesprochene Inhalte) nachgeladen werden.
 - **Darf ich Aufgaben weitergeben?** Ja. Die Aufgaben gehören dir. Für die Bilder gelten deren Lizenzen – ARASAAC-Piktogramme nur nicht-kommerziell; die Bildnachweise stehen automatisch dabei.
