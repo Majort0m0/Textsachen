@@ -1,12 +1,13 @@
 # Textsachen
 
-**Lesen, Schreiben und Tippen üben** – ein Editor für Diktate, Blitzlesen, Leseübungen, Lückentexte und Abtipp-Übungen für den Unterricht (Grundschule, Förderschule, Deutsch als Zweitsprache), z. B. für ByCS mebis/Moodle.
+**Lesen, Schreiben und Tippen üben** – ein Editor für Diktate, Blitzlesen, Wortspiele und Rätsel (Memory, Maus & Käse, Kreuzworträtsel, Suchsel, Wordle), Leseübungen, Lückentexte und Abtipp-Übungen für den Unterricht (Grundschule, Förderschule, Deutsch als Zweitsprache), z. B. für ByCS mebis/Moodle.
 
 **▶ Direkt im Browser starten:** https://majort0m0.github.io/Textsachen/
 
 **⬇ Herunterladen:** [Textsachen.html](https://github.com/Majort0m0/Textsachen/releases/latest/download/Textsachen.html) (eine einzige Datei, läuft offline – einfach doppelklicken)
 
 - Mit einer Wortliste: **Bilddiktat**, **Hördiktat**, **Wortdiktat** und **Blitzlesen**
+- Spiele und Rätsel mit einer Wortliste: **Memory**, **Maus & Käse** (Buchstaben raten), **Kreuzworträtsel**, **Suchsel** und **Wordle**
 - Mit einem Text: **Lesen** (Vorlesen mit mitleuchtenden Wörtern, danach ein Bilder-Quiz), **Lückentext**, **Abtippen** und **Blitzlesen**
 - Höchstens ein **Lernwort** pro Satz – automatisch vorgeschlagen oder selbst angetippt; die Lernwörter sind Lücken, Quizfragen und Blitzwörter
 - Wie im TippTrainer: Prüfen mit der Eingabetaste, Fehleranzeige im Eingabefeld, Korrigieren mit der Rücktaste, Shift-Animation bei Groß-/Kleinschreibung, Artikel steht schon da; Auswertung Perfekt / Geübt / Nicht geschafft
@@ -62,7 +63,7 @@ Diese Anleitung steht auch in der App unter „Anleitung“.
 
 ## Schnellstart
 
-Mit Textsachen erstellst du Übungen zum Lesen, Schreiben und Tippen: Diktate zu einer Wortliste, Blitzlesen, Lesen mit Vorlesefunktion, Lückentexte und Abtipp-Übungen. Alles läuft direkt in deinem Browser, ohne Anmeldung.
+Mit Textsachen erstellst du Übungen zum Lesen, Schreiben und Tippen: Diktate zu einer Wortliste, Blitzlesen, Wortspiele und Rätsel (Memory, Maus & Käse, Kreuzworträtsel, Suchsel, Wordle), Lesen mit Vorlesefunktion, Lückentexte und Abtipp-Übungen. Alles läuft direkt in deinem Browser, ohne Anmeldung.
 
 ### In 5 Schritten zur fertigen Aufgabe
 
@@ -93,6 +94,16 @@ Mit Textsachen erstellst du Übungen zum Lesen, Schreiben und Tippen: Diktate zu
 | **Lückentext** | Die Lernwörter fehlen im Text (blaue Kästchen). Antippen öffnet eine Lücke – in beliebiger Reihenfolge – mit Eingabefeld und den Hilfen direkt daneben: Lautsprecher (liest das Wort), Auge (zeigt es kurz im Feld), ✕ (schließen, Esc) und ✓ (prüfen, Enter). Ein Fehler erscheint rot an der Stelle der Lücke, der Stift (oder Antippen) startet den zweiten Versuch. Unten: „Vorlesen“ liest den ganzen Text (Lücken heißen „Wortlücke“), „Bilder“ zeigt die Bildwörter – auch über den Lücken. |
 | **Abtippen** | Der Text wird Wort für Wort abgetippt – Leertaste, Eingabetaste oder ein Satzzeichen bestätigen ein Wort. Mit „Vorlage anzeigen“ steht der Text darüber, sonst helfen nur Vorlesen und Zeigen (wie im TippTrainer). Ein Fehler wird mit der Rücktaste (oder Antippen) korrigiert. Am Ende stehen auch die Wörter pro Minute. |
 | **Blitzlesen** | Wie bei der Wortliste – mit den Lernwörtern des Textes, die ein Bild haben. |
+
+### Spiele und Rätsel mit einer Wortliste
+
+| Übung | So geht sie |
+| --- | --- |
+| **Memory** | Zu jedem Wort mit Bild ein Kartenpaar: Bild und Bild, Bild und Wort oder Bild und Ton (die Computerstimme spricht das Wort beim Aufdecken). Zwei Karten werden aufgedeckt; ein Paar bleibt offen und das Wort wird vorgelesen. Allein zählen die Züge, zu zweit wird abgewechselt – wer ein Paar findet, ist noch einmal dran. Gibt es mehr Wörter als Paare pro Spiel, kommt jedes Mal eine andere Auswahl. |
+| **Maus & Käse** | Statt Galgenmännchen: Das Wort steht als leere Kästchen da (der Artikel ist schon da), Buchstaben werden auf der Bildschirmtastatur oder der Tastatur geraten. Jeder falsche Buchstabe bringt die Maus einen Schritt näher zum Käse – kommt sie an, frisst sie ihn und das Wort wird gezeigt. Das Bild des Wortes hilft (einstellbar), die Schritte bis zum Käse auch. |
+| **Kreuzworträtsel** | Die Bilder sind die Fragen (nummeriert, waagerecht und senkrecht), die Wörter werden ins Gitter getippt – der Cursor läuft weiter, ein zweites Antippen einer Kreuzung wechselt die Richtung. „Prüfen“ (Eingabetaste) prüft jedes fertige Wort mit zwei Versuchen. Mit der Einstellung „Stift“ bleiben die Kästchen leer: zum Schreiben mit dem Stift in Lernsachen-Heft oder auf dem Arbeitsblatt, „Lösung zeigen“ zeigt die Wörter. Großbuchstaben, ß wird SS. |
+| **Suchsel** | Die Wörter verstecken sich in einem Buchstabengitter (→ ↓, auch schräg oder in alle Richtungen); die Bilder zeigen, was gesucht wird. Gefunden wird durch Wischen über die Buchstaben oder Antippen des ersten und letzten Buchstabens – das Wort bekommt ein farbiges Band und wird vorgelesen. „Wörter zeigen“ schreibt die Wörter kurz unter die Bilder. Mit „Stift“ wird nichts geprüft, „Lösung zeigen“ zeigt die Bänder. |
+| **Wordle** | Ein Wort mit 4, 5 oder 6 Buchstaben in 6 Versuchen erraten: Grün = richtiger Buchstabe an der richtigen Stelle, Gelb (gestrichelt) = im Wort, aber woanders, Grau = nicht im Wort; auch die Tastatur färbt sich. Gespielt werden die Wörter der Liste mit der gewählten Länge – ohne solche eine eingebaute Liste einfacher Wörter. Hilfen: Bild zeigen, Vorlesen. |
 
 ### Erster und zweiter Versuch (wie im TippTrainer)
 
@@ -162,13 +173,11 @@ Die **Vorschau** neben den Einstellungen zeigt die Aufgabe so, wie sie die Lerne
 
 Klicke oben rechts auf „Exportieren“. Hast du noch Hinweise in der Checkliste, zeigt der Dialog sie an – exportieren kannst du trotzdem.
 
-**Projektdatei (JSON):** Die Arbeitsdatei zum **Weiterbearbeiten** in Textsachen – mit allen Bildern (auch denen der anderen Inhaltsart, falls du zwischen Wortliste und Text gewechselt hast). Für Lernende ist sie nicht gedacht.
-
-**HTML-Datei:** Eine einzelne Datei, die in jedem Browser läuft – auch ohne Internet. Zum Verschicken, für den Schulserver oder in mebis als Material „Datei“. Ergebnisse werden dabei nicht gespeichert. Eine exportierte HTML-Datei kannst du über „Öffnen …“ auch wieder in Textsachen laden.
+**HTML-Datei:** Eine einzelne Datei, die in jedem Browser läuft – auch ohne Internet. Zum Verschicken, für den Schulserver oder in mebis als Material „Datei“. Ergebnisse werden dabei nicht gespeichert. Dieselbe Datei ist auch deine Arbeitsdatei: Über „Öffnen …“ lädst du sie wieder in Textsachen und bearbeitest sie weiter – mit allen Bildern (auch denen der anderen Inhaltsart, falls du zwischen Wortliste und Text gewechselt hast).
 
 ### HTML-Datei in mebis/Moodle einbetten (iframe)
 
-1. Bei „HTML-Datei (eigenständig)“ auf „Herunterladen“ klicken – der Dialog wechselt zu „In mebis/Moodle einbetten“.
+1. Bei „HTML-Datei (speichern und weitergeben)“ auf „Herunterladen“ klicken – der Dialog wechselt zu „In mebis/Moodle einbetten“.
 2. Die Datei in mebis hochladen, z. B. als Material „Datei“ mit der Anzeige „Eingebettet“ (dann bist du fertig) oder im Texteditor eines Textfelds über „Link“ bzw. „Medien“ → „Datei hochladen“.
 3. Mit der rechten Maustaste auf den Dateinamen → „Link-Adresse kopieren“ und den Link in das Feld „Link der HTML-Datei“ einfügen. Den fertigen „iframe-Code“ kopieren.
 4. Im Texteditor auf die HTML-Ansicht umschalten, den Code einfügen und speichern.
@@ -186,6 +195,9 @@ Ein A4-Arbeitsblatt zum Ausdrucken, aufgebaut wie im TippTrainer. Du wählst „
 
 - **Bild-, Hör- und Wortdiktat:** zwei Spalten mit Bild (oder Nummer) und Schreiblinie; nach höchstens sechs Wörtern ein Kasten mit den Lösungswörtern in zufälliger Reihenfolge. Artikel stehen schon vor der Linie.
 - **Blitzlesen:** zu jedem Wort drei Bilder – das passende wird eingekreist.
+- **Memory:** Karten zum Ausschneiden – zu jedem Wort ein Paar.
+- **Maus & Käse, Wordle:** Bild (oder Nummer) und ein Kästchen pro Buchstabe, dazu Kästen mit den Lösungswörtern.
+- **Kreuzworträtsel und Suchsel:** das Rätsel (genau wie in der Übung) mit den Bildern als Fragen, dazu eine Lösungsseite.
 - **Lesen:** der Text, auf Wunsch mit den Wortbildern über den Wörtern. Ohne Wortbilder folgt eine Suchaufgabe „Kannst du diese Wörter im Text finden?“ mit bis zu sechs Bildern.
 - **Lückentext:** Schreiblinien statt der Lernwörter, nach höchstens sechs Sätzen ein Kasten mit den Lösungswörtern.
 - **Abtippen:** der Text in Abschnitten von sechs Sätzen, nach jedem genug Linien zum Abschreiben.
@@ -194,9 +206,11 @@ Ein A4-Arbeitsblatt zum Ausdrucken, aufgebaut wie im TippTrainer. Du wählst „
 
 **Automatisch im Browser:** Jede Änderung wird nach kurzer Zeit automatisch in deinem Browser gespeichert (oben steht „Automatisch gespeichert“). Öffnest du Textsachen später im selben Browser wieder, ist deine Aufgabe noch da.
 
-> **Achtung:** Der Browser-Speicher ist kein Archiv: Er gilt nur für diesen Browser auf diesem Gerät und geht verloren, wenn du die Browserdaten löschst oder im privaten Modus arbeitest. Es gibt immer nur **eine** aktuelle Aufgabe – sichere sie als JSON-Datei.
+> **Achtung:** Der Browser-Speicher ist kein Archiv: Er gilt nur für diesen Browser auf diesem Gerät und geht verloren, wenn du die Browserdaten löschst oder im privaten Modus arbeitest. Es gibt immer nur **eine** aktuelle Aufgabe – sichere sie als Datei.
 
-**Öffnen und neue Aufgabe:** Ordner-Symbol → „Öffnen …“ lädt eine JSON-Datei oder eine exportierte HTML-Aufgabe wieder in den Editor, „Neue Aufgabe“ beginnt mit einer neuen Übungsart. Die aktuelle Aufgabe wird dabei ersetzt.
+**Als Datei sichern:** Ordner-Symbol → „Speichern“ lädt die Aufgabe als HTML-Datei herunter, z. B. „Tiere im Zoo (Textsachen).html“. Sie läuft in jedem Browser, lässt sich in Lernsachen-Heft einfügen und in Textsachen wieder öffnen. Am Namen erkennst du, aus welcher App eine Datei stammt: „(Textsachen)“, „(Quizsachen)“, „(Schiebesachen)“ oder „(Heft)“ für Lernsachen-Heft.
+
+**Öffnen und neue Aufgabe:** Ordner-Symbol → „Öffnen …“ lädt eine gespeicherte oder exportierte HTML-Aufgabe wieder in den Editor (auch ältere JSON-Dateien), „Neue Aufgabe“ beginnt mit einer neuen Übungsart. Die aktuelle Aufgabe wird dabei ersetzt. Öffnest du die Datei einer anderen App, sagt dir Textsachen, wohin sie gehört.
 
 **Im Lernsachen-Heft:** Im Lernsachen-Heft öffnet die Vorlage unter „Interaktive Übungen“ Textsachen direkt im Heft. Oben rechts stehen dann „Ins Heft übernehmen“ und „Abbrechen“. Bis die Aufgabe im Heft ist, speichert Textsachen sie als eigenen Entwurf.
 

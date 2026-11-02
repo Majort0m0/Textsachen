@@ -23,7 +23,7 @@ Damit nichts verloren geht, speichert Textsachen die aktuelle Aufgabe automatisc
 
 Außerdem merkt sich Textsachen im lokalen Speicher deines Browsers (localStorage) die **Einstellungen des KI-Dialogs** (Thema, Zielgruppe usw. – den API-Schlüssel nur, wenn du das einschaltest, siehe Punkt 7), ob die **automatische Bildersuche** an ist, und – für die Bildersuche, bis zu 30 Tage – die öffentliche **Stichwortliste von ARASAAC** (keine Daten von dir). Du löschst das, indem du in deinem Browser die Website-Daten löschst.
 
-Dateien wie JSON, HTML, SCORM-Pakete oder PDF entstehen ebenfalls nur lokal und werden in deinem Download-Ordner gespeichert. Was du damit machst (z. B. in mebis hochladen), entscheidest du.
+Dateien wie HTML, SCORM-Pakete oder PDF entstehen ebenfalls nur lokal und werden in deinem Download-Ordner gespeichert. Was du damit machst (z. B. in mebis hochladen), entscheidest du.
 
 ### 3. Keine Cookies, kein Tracking
 
