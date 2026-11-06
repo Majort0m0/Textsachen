@@ -73,7 +73,7 @@ Mit Textsachen erstellst du Übungen zum Lesen, Schreiben und Tippen: Diktate zu
 2. **Inhalt schreiben** – im Schritt „Inhalt“ den Titel und die Wörter bzw. den Text eingeben, ein Beispiel einsetzen, mit „Aus Wortliste …“ aus den Listen von Lernsachen-Heft wählen (Erste Wörter, Grundwortschatz Bayern 1/2, Deutsch als Zweitsprache – jedes Wort mit seinem geprüften Piktogramm) oder mit „Mit KI erstellen …“ vorschlagen lassen.
 3. **Bilder und Lernwörter** – die Bilder sucht Textsachen gleich nach der Eingabe von selbst; im Schritt „Bilder“ tauschst du sie aus oder legst Wörter ins Archiv. Bei Texten wählst du im Schritt „Lernwörter“ höchstens ein Wort pro Satz (oder „Automatisch“).
 4. **Ablauf einstellen** – im Schritt „Ablauf“ Schrift und Größe, Hilfen (Vorlesen, Zeigen), Vorlese-Tempo und Bestehensgrenze. Die Checkliste zeigt, ob noch etwas fehlt.
-5. **Testen und exportieren** – rechts siehst du die Vorschau, oben „Testen“ zeigt die Aufgabe groß. Dann „Exportieren“: als HTML-Datei (auch zum Einbetten in mebis), als SCORM-Paket für mebis mit Bewertung oder als PDF-Arbeitsblatt.
+5. **Testen und speichern** – rechts siehst du die Vorschau, oben „Testen“ zeigt die Aufgabe groß. Dann „Speichern“: als HTML-Datei (auch zum Einbetten in mebis), als SCORM-Paket für mebis mit Bewertung oder als PDF-Arbeitsblatt.
 
 > **Tipp:** Die Übungsart lässt sich jederzeit im Schritt „Übung“ wechseln – Wörter, Text, Lernwörter und Bilder bleiben erhalten. So wird aus demselben Text erst eine Leseübung, dann ein Lückentext und am Ende eine Abtipp-Übung.
 
@@ -171,9 +171,9 @@ Vorgelesen wird mit der deutschen Stimme des Geräts – auf iPads und Computern
 
 Die **Vorschau** neben den Einstellungen zeigt die Aufgabe so, wie sie die Lernenden sehen, und startet nach jeder Änderung neu. „Testen“ oben zeigt sie groß; „Neu starten“ beginnt von vorn.
 
-## Exportieren
+## Speichern und teilen
 
-Klicke oben rechts auf „Exportieren“. Hast du noch Hinweise in der Checkliste, zeigt der Dialog sie an – exportieren kannst du trotzdem.
+Klicke oben rechts auf „Speichern“. Hast du noch Hinweise in der Checkliste, zeigt der Dialog sie an – speichern kannst du trotzdem.
 
 **HTML-Datei:** Eine einzelne Datei, die in jedem Browser läuft – auch ohne Internet. Zum Verschicken, für den Schulserver oder in mebis als Material „Datei“. Ergebnisse werden dabei nicht gespeichert. Dieselbe Datei ist auch deine Arbeitsdatei: Über „Öffnen …“ lädst du sie wieder in Textsachen und bearbeitest sie weiter – mit allen Bildern (auch denen der anderen Inhaltsart, falls du zwischen Wortliste und Text gewechselt hast).
 
@@ -210,7 +210,7 @@ Ein A4-Arbeitsblatt zum Ausdrucken, aufgebaut wie im TippTrainer. Du wählst „
 
 > **Achtung:** Der Browser-Speicher ist kein Archiv: Er gilt nur für diesen Browser auf diesem Gerät und geht verloren, wenn du die Browserdaten löschst oder im privaten Modus arbeitest. Es gibt immer nur **eine** aktuelle Aufgabe – sichere sie als Datei.
 
-**Als Datei sichern:** Ordner-Symbol → „Speichern“ lädt die Aufgabe als HTML-Datei herunter, z. B. „Tiere im Zoo (Textsachen).html“. Sie läuft in jedem Browser, lässt sich in Lernsachen-Heft einfügen und in Textsachen wieder öffnen. Am Namen erkennst du, aus welcher App eine Datei stammt: „(Textsachen)“, „(Quizsachen)“, „(Schiebesachen)“ oder „(Heft)“ für Lernsachen-Heft.
+**Als Datei sichern:** Ordner-Symbol → „Als HTML-Datei speichern“ lädt die Aufgabe als HTML-Datei herunter, z. B. „Tiere im Zoo (Textsachen).html“. Sie läuft in jedem Browser, lässt sich in Lernsachen-Heft einfügen und in Textsachen wieder öffnen. Am Namen erkennst du, aus welcher App eine Datei stammt: „(Textsachen)“, „(Quizsachen)“, „(Schiebesachen)“ oder „(Heft)“ für Lernsachen-Heft.
 
 **Öffnen und neue Aufgabe:** Ordner-Symbol → „Öffnen …“ lädt eine gespeicherte oder exportierte HTML-Aufgabe wieder in den Editor (auch ältere JSON-Dateien), „Neue Aufgabe“ beginnt mit einer neuen Übungsart. Die aktuelle Aufgabe wird dabei ersetzt. Öffnest du die Datei einer anderen App, sagt dir Textsachen, wohin sie gehört.
 
