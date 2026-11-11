@@ -8,7 +8,7 @@
 
 - Mit einer Wortliste: **Bilddiktat**, **Hördiktat**, **Wortdiktat** und **Blitzlesen**
 - Spiele und Rätsel mit einer Wortliste: **Memory**, **Maus & Käse** (Buchstaben raten), **Kreuzworträtsel**, **Suchsel** und **Wordle**
-- Mit einem Text: **Lesen** (Vorlesen mit mitleuchtenden Wörtern, danach ein Bilder-Quiz), **Lückentext**, **Abtippen** und **Blitzlesen**
+- Mit einem Text: **Lesen** (Vorlesen mit mitleuchtenden Wörtern, danach ein Bilder-Quiz), **Lückentext**, **Abtippen**, **Blitzlesen** und der **Erklärbär** (ein Erklärfilm: eine Hand legt die Bilder passend zum vorgelesenen Text aufs Blatt, auch als Video)
 - Höchstens ein **Lernwort** pro Satz – automatisch vorgeschlagen oder selbst angetippt; die Lernwörter sind Lücken, Quizfragen und Blitzwörter
 - Wie im TippTrainer: Prüfen mit der Eingabetaste, Fehleranzeige im Eingabefeld, Korrigieren mit der Rücktaste, Shift-Animation bei Groß-/Kleinschreibung, Artikel steht schon da; Auswertung Perfekt / Geübt / Nicht geschafft
 - Bilder automatisch gleich nach der Eingabe – ARASAAC-Piktogramme über die Grundform der Wörter (Häuser → Haus, läuft → laufen); bei Texten viele **Bildwörter** zum Leseverständnis, mit Archiv zum Ab- und Zuwählen; oder selbst gewählt (ARASAAC, Wikimedia Commons, eigene Bilder)
@@ -96,6 +96,7 @@ Mit Textsachen erstellst du Übungen zum Lesen, Schreiben und Tippen: Diktate zu
 | **Lückentext** | Die Lernwörter fehlen im Text (blaue Kästchen). Antippen öffnet eine Lücke – in beliebiger Reihenfolge – mit Eingabefeld und den Hilfen direkt daneben: Lautsprecher (liest das Wort), Auge (zeigt es kurz im Feld), ✕ (schließen, Esc) und ✓ (prüfen, Enter). Ein Fehler erscheint rot an der Stelle der Lücke, der Stift (oder Antippen) startet den zweiten Versuch. Unten: „Vorlesen“ liest den ganzen Text (Lücken heißen „Wortlücke“), „Bilder“ zeigt die Bildwörter – auch über den Lücken. |
 | **Abtippen** | Der Text wird Wort für Wort abgetippt – Leertaste, Eingabetaste oder ein Satzzeichen bestätigen ein Wort. Mit „Vorlage anzeigen“ steht der Text darüber, sonst helfen nur Vorlesen und Zeigen (wie im TippTrainer). Ein Fehler wird mit der Rücktaste (oder Antippen) korrigiert. Am Ende stehen auch die Wörter pro Minute. |
 | **Blitzlesen** | Wie bei der Wortliste – mit den Lernwörtern des Textes, die ein Bild haben. |
+| **Erklärbär** | Ein Erklärfilm aus dem Text: Satz für Satz wird vorgelesen, und wenn ein Bildwort kommt, legt eine Hand sein Bild aufs Blatt. Nach mindestens drei Bildern (am Ende des Satzes) wischt die Hand das Blatt frei für die nächste Szene. Einstellbar: Hintergrund (Whiteboard, Tafel, Heftseite, Pinnwand, Himmel), Untertitel mit dem gesprochenen Wort, Wörter unter den Bildern, Hautfarbe der Hand, Pause nach jedem Satz, Hintergrundmusik (ruhig, fröhlich, neugierig oder eine eigene Datei) und die Stimme: die Computerstimme oder eigene Aufnahmen, Satz für Satz eingesprochen. „Als Video speichern“ nimmt den Film einmal ganz auf (MP4, je nach Browser WebM). Die Computerstimme kann kein Browser aufnehmen – im Video stehen dann die Untertitel; mit eigenen Aufnahmen ist die Stimme im Video. Auf dem Arbeitsblatt steht der Text mit den Bildern. |
 
 ### Spiele und Rätsel mit einer Wortliste
 
