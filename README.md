@@ -74,7 +74,7 @@ Mit Textsachen erstellst du Übungen zum Lesen, Schreiben und Tippen: Diktate zu
 ### In 5 Schritten zur fertigen Aufgabe
 
 1. **Übungsart wählen** – beim Start oder über das Ordner-Symbol → „Neue Aufgabe“: eine der vier Übungen mit einer Wortliste oder eine der vier Übungen mit einem Text.
-2. **Inhalt schreiben** – im Schritt „Inhalt“ den Titel und die Wörter bzw. den Text eingeben, ein Beispiel einsetzen, mit „Aus Wortliste …“ aus den Listen von Lernsachen-Heft wählen (Erste Wörter, Grundwortschatz Bayern 1/2, Deutsch als Zweitsprache – jedes Wort mit seinem geprüften Piktogramm) oder mit „Mit KI erstellen …“ vorschlagen lassen.
+2. **Inhalt schreiben** – im Schritt „Inhalt“ den Titel und die Wörter bzw. den Text eingeben, ein Beispiel einsetzen, mit „Aus Wortliste …“ aus den Listen von Lernsachen-Heft wählen (Erste Wörter, Grundwortschatz Bayern 1/2, Deutsch als Zweitsprache, Beruf und Haushalt – jedes Wort mit seinem geprüften Piktogramm) oder mit „Mit KI erstellen …“ vorschlagen lassen.
 3. **Bilder und Lernwörter** – die Bilder sucht Textsachen gleich nach der Eingabe von selbst; im Schritt „Bilder“ tauschst du sie aus oder legst Wörter ins Archiv. Bei Texten wählst du im Schritt „Lernwörter“ höchstens ein Wort pro Satz (oder „Automatisch“).
 4. **Ablauf einstellen** – im Schritt „Ablauf“ Schrift und Größe, Hilfen (Vorlesen, Zeigen), Vorlese-Tempo und Bestehensgrenze. Die Checkliste zeigt, ob noch etwas fehlt.
 5. **Testen und speichern** – rechts siehst du die Vorschau, oben „Testen“ zeigt die Aufgabe groß. Dann „Speichern“: als HTML-Datei (auch zum Einbetten in mebis), als SCORM-Paket für mebis mit Bewertung oder als PDF-Arbeitsblatt.
