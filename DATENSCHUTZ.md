@@ -1,13 +1,13 @@
 # Datenschutz
 
-Diese Hinweise stehen auch in der App unter „Datenschutz“.
+Diese Erklärung steht auch in der App unter „?“ → „Datenschutz“.
 
 **Kurz gesagt:**
 
 - Textsachen hat keinen Server. Alles läuft lokal in deinem Browser.
 - Deine Aufgaben werden nur auf deinem Gerät gespeichert.
 - Keine Anmeldung, keine Cookies, kein Tracking, keine Analyse, keine Werbung.
-- Verbindungen ins Internet gibt es nur, wenn du die Bildsuche (ARASAAC, Wikimedia Commons) benutzt, Bilder automatisch suchen lässt oder eine Bildadresse (URL) einfügst – siehe Punkt 4 –, und wenn du eine KI über eine API-Schnittstelle nutzt – siehe Punkt 7.
+- Verbindungen ins Internet gibt es nur, wenn du die Bildsuche (ARASAAC, BildWort, Wikimedia Commons) benutzt, Bilder automatisch suchen lässt oder eine Bildadresse (URL) einfügst – siehe Punkt 4 –, und wenn du eine KI über eine API-Schnittstelle nutzt – siehe Punkt 7.
 
 ### 1. Alles läuft lokal in deinem Browser
 
@@ -36,11 +36,12 @@ Nur wenn du im Bild-Dialog **selbst** eine Suche startest oder ein Suchergebnis 
 | Dienst | Adressen | Datenschutz |
 |---|---|---|
 | **ARASAAC** (Regierung von Aragón, Spanien) | `api.arasaac.org`, `static.arasaac.org` | [Datenschutzerklärung von ARASAAC](https://arasaac.org/privacy-policy) |
+| **BildWort** (Christian Urff) | `symbole.urff.app` | [Datenschutzhinweise von BildWort](https://symbole.urff.app/hilfe#datenschutz) |
 | **Wikimedia Commons** (Wikimedia Foundation, USA) | `commons.wikimedia.org`, `upload.wikimedia.org`, `thumb.wikimedia.org` | [Datenschutzrichtlinie der Wikimedia Foundation](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/de) |
 
-Dabei werden **deine IP-Adresse**, der **Suchbegriff** und übliche technische Angaben deines Browsers (z. B. Browsertyp, Sprache) an diesen Dienst übermittelt – so wie beim Besuch der jeweiligen Webseite. Textsachen schickt keine weiteren Daten mit, insbesondere nicht deine Aufgabe. Gib deshalb keine personenbezogenen Daten als Suchbegriff ein. Die Wikimedia Foundation sitzt in den USA; Daten können dorthin übertragen werden.
+Dabei werden **deine IP-Adresse**, der **Suchbegriff** und übliche technische Angaben deines Browsers (z. B. Browsertyp, Sprache) an diesen Dienst übermittelt – so wie beim Besuch der jeweiligen Webseite. Textsachen schickt keine weiteren Daten mit, insbesondere nicht deine Aufgabe. Gib deshalb keine personenbezogenen Daten als Suchbegriff ein. Die Wikimedia Foundation sitzt in den USA; Daten können dorthin übertragen werden. BildWort zählt die Suchwörter (ohne IP-Adresse, höchstens 90 Tage), damit seine Redaktion sieht, welche Bilder noch fehlen. Außerdem merkt sich dein Browser (localStorage), in welcher Reihenfolge die Bildquellen gefragt werden und welches Bild du zuletzt für ein Wort gewählt hast (Wort, Bildadresse, Bildnachweis) – das gilt für alle vier Lernsachen-Apps auf diesem Gerät.
 
-**Automatische Bildersuche:** Gibst du Wörter oder einen Text ein, sucht dein Browser kurz darauf von selbst bei ARASAAC nach Piktogrammen zu diesen Wörtern (bei Texten zu den abbildbaren Wörtern, in ihrer Grundform). Dabei gilt dasselbe wie bei der Bildsuche: ARASAAC erfährt die Suchwörter und deine IP-Adresse. Einmal lädt dein Browser dafür auch die öffentliche Stichwortliste von ARASAAC. Möchtest du das nicht, schalte im Schritt „Bilder“ „Bilder automatisch suchen“ aus – schreibe dann keine Wörter, bevor du die Suche ausgeschaltet hast.
+**Automatische Bildersuche:** Gibst du Wörter oder einen Text ein, sucht dein Browser kurz darauf von selbst bei ARASAAC und BildWort (in der Reihenfolge, die du unter „Quellen“ im Bild-Dialog einstellst; Wikimedia nie) nach Bildern zu diesen Wörtern (bei Texten zu den abbildbaren Wörtern, in ihrer Grundform). Dabei gilt dasselbe wie bei der Bildsuche: der Dienst erfährt die Suchwörter und deine IP-Adresse. Einmal lädt dein Browser dafür auch die öffentliche Stichwortliste von ARASAAC. Möchtest du das nicht, schalte im Schritt „Bilder“ „Bilder automatisch suchen“ aus – schreibe dann keine Wörter, bevor du die Suche ausgeschaltet hast.
 
 Fügst du unter „Oder Bildadresse (URL) einfügen“ eine Adresse ein oder ziehst ein Bild aus einer anderen Webseite hinein, lädt dein Browser das Bild von dieser Webseite – auch dabei erfährt deren Betreiber deine IP-Adresse.
 
