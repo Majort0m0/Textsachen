@@ -15,7 +15,7 @@
 - Wörter und Texte auf Wunsch von einer KI – über einen KI-Chat deiner Wahl oder eine API-Schnittstelle
 - Bildersuche bei BildWort, ARASAAC und Wikimedia Commons (von Haus aus aus, mit Jugendschutzfilter) – Reihenfolge und Quellen unter „Quellen“, das für ein Wort gewählte Bild kommt beim nächsten Mal zuerst
 - Titelbild der Aufgabe (Stern im Schritt „Bilder“, sonst das erste Bild) – im Player neben dem Titel, dazu die Übungsart mit Symbol; der Erklärbär beginnt mit einer Titelkarte
-- Voreinstellungen für neu erstellte Aufgaben (Vorlesen, Schrift, Silben, Bilder automatisch suchen) – gelten für alle Lernsachen-Apps auf diesem Gerät
+- Voreinstellungen für neu erstellte Aufgaben (Vorlesen, Schrift, Silben, Bilder automatisch suchen) – gelten für alle Lernsachen-Apps auf diesem Gerät – im Lernsachen-Heft zeigen sie die Werte des Hefts an („Im Heft ändern …“ öffnet dort die Einstellungen); „Wie die Vorlage“ übernimmt, was die Vorlage mitbringt
 - Aus Lernsachen-Heft heraus („Weitere Übung“): eine neue Aufgabe mit den Wörtern der Übung im Heft – oder ein Text mit dem KI-Assistenten und diesem Material
 - Export als HTML-Datei (auch zum Einbetten per iframe), SCORM-1.2-Paket mit Bewertung und Wort-Protokoll oder PDF-Arbeitsblatt (Grundlinie oder 4er-Lineatur)
 - Im [Lernsachen-Heft](https://majort0m0.github.io/Lernsachen-Heft/) als Vorlage „Lesen & Schreiben“ (Interaktive Übungen)
